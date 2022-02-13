@@ -99,13 +99,10 @@ class UrlUpdateView(UpdateView):
     def get(self, request, *args, **kwargs):
         self.object = self.get_object()
 
-        logged_in_user = self.request.session.get('username')
-
-        logged_in_user_id = None
-
-        if logged_in_user:
+        if logged_in_user := self.request.session.get('username'):
             logged_in_user_id = User.objects.filter(username=logged_in_user)[0].id
-
+        else:
+            logged_in_user_id = None
         if self.object.user_id != logged_in_user_id:
             return HttpResponseForbidden()
 
