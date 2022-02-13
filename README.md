@@ -1,19 +1,15 @@
 # TinyApp Project
 
-TinyApp is a full stack web application built with Python and Django that allows users to shorten long URLs (like bit.ly).
-
-# Link to Deployed App
-
-[Link text here](link-to-app)
-** notes here **
+TinyApp is a full stack web application built with Python and Django 4 that allows users to shorten long URLs (like bit.ly).
 
 ## Final Product
 
-!["url list"](https://github.com/krunchmuffin/TinyApp/blob/main/docs/urls-page.png?raw=true)
-!["register"](https://github.com/krunchmuffin/TinyApp/blob/main/docs/register.png?raw=true)
-!["login"](https://github.com/krunchmuffin/TinyApp/blob/main/docs/login-page.png?raw=true)
-!["edit url"](https://github.com/krunchmuffin/TinyApp/blob/main/docs/edit-url.png?raw=true)
-!["user list"](https://github.com/krunchmuffin/TinyApp/blob/main/docs/users-list.png?raw=true)
+!["Create"](https://github.com/KrunchMuffin/TinyAppLighthouse/blob/master/docs/create.png)
+!["URL Listings"](https://github.com/KrunchMuffin/TinyAppLighthouse/blob/master/docs/urls-page.png)
+!["Register"](https://github.com/KrunchMuffin/TinyAppLighthouse/blob/master/docs/register.png)
+!["Login"](https://github.com/KrunchMuffin/TinyAppLighthouse/blob/master/docs/login-page.png)
+!["Edit URL"](https://github.com/KrunchMuffin/TinyAppLighthouse/blob/master/docs/edit-url.png)
+!["User List"](https://github.com/KrunchMuffin/TinyAppLighthouse/blob/master/docs/users-list.png)
 
 ## Dependencies
 
